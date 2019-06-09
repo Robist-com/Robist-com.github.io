@@ -1,0 +1,176 @@
+/*Featured Service*/
+section.pricing {
+  background: #F4623A;
+  background: linear-gradient(to right, #f9704a, #f77d5b);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+/*--- Featured Service*/
+
+
+/*Triangle Message box*/
+        
+.box {
+  background-color: #52575b;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  margin: 40px;
+  float: left;
+}
+
+.box.arrow-top {
+  margin-top: 40px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid black;
+}
+
+.box.arrow-right:after {
+  content: " ";
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  border-top: 15px solid transparent;
+  border-right: none;
+  border-left: 15px solid black;
+  border-bottom: 15px solid transparent;
+}
+
+.box.arrow-bottom:after {
+  content: " ";
+  position: absolute;
+  right: 50%;
+  bottom: -15px;
+  border-top: 15px solid #52575b;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: none;
+}
+
+.box.arrow-left:after {
+  content: " ";
+  position: absolute;
+  left: -15px;
+  top: 15px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid black;
+  border-left: none;
+  border-bottom: 15px solid transparent;
+}
+/*--- Triangle Message box*/
+
+/*Call to Action*/
+.cta_action::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cta_action:-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cta_action:-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cta_action::-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+}
+/*--- Call to Action*/
+
+/*Blog Section*/
+.oversize {
+    width: 100%;
+    height: auto;
+}
+/*--- Blog Section*/
+
+
+.text-cell-overflow{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 5ch;
+}
+
+/*DataTable Fixed Button panel*/
+.fixed-button-panel {
+  padding: 10px 16px;
+  color: #f1f1f1;
+}
+/*-- DataTable Fixed Button panel*/
+
+/*Robist Library*/
+  /*DataTable Fixed Button panel*/
+  .fixed-button-panel-sticky {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+  }
+  /*-- DataTable Fixed Button panel*/
+/*Robist Library*/
+

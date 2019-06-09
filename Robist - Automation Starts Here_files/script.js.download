@@ -1,0 +1,84 @@
+// effect jquery-ui - blind,bounce,clip,drop,explode,flade,fold,highlight,puff,pulsate,scale,shake,size,slide,transfer
+/*Robist Library*/
+
+    /*Testing if jquery working*/
+    function jqueryWorking(){
+        window.onload = function() {
+            if (window.jQuery) {  
+                // jQuery is loaded  
+                alert("Yeah!");
+            } else {
+                // jQuery is not loaded
+                alert("Doesn't Work");
+            }
+        }
+    }
+    /*-- Testing if jquery working*/
+
+    /*Create HTML Element with attributes and inner content*/
+    function createNode(node, attributes){
+        const el = document.createElement(node);
+        for(let key in attributes){
+            if(key == 'innerHTML'){
+                el.innerHTML = attributes[key];
+            }else{
+                el.setAttribute(key, attributes[key]);    
+            }
+            
+        }
+        return el;
+    }
+    /*Example
+    var dialogID = 'alert1';
+    var node = createNode('div', {
+        id : dialogID,
+        title : 'Task Management',
+        innerHTML : 'Select at least one task row!',
+        style : 'display: none;'
+    });
+    document.body.appendChild(node);
+    */    
+    /*-- Create HTML Element with attributes and inner content*/
+
+    /*Add style Sheet*/
+    function addStyleSheet(style_string){
+        var styleSheet = document.createElement('style');
+        styleSheet.type = 'text/css';
+        styleSheet.innerText = style_string;
+        document.head.appendChild(styleSheet);
+    }
+    /*-- Add style Sheet*/
+    
+    /*Remove Element*/
+    function removeElement(ID){
+        var element = document.getElementById(ID);
+        element.parentNode.removeChild(element);
+    }
+    /*-- Remove Element*/
+    
+
+    /*DataTable Fixed Button panel*/
+    function StickyButtonPanel(fixed_button_panel,Checkboxes_DataTable){
+        window.onscroll = function() {stickingButtonPanel()};
+
+        var header = document.getElementsByClassName(fixed_button_panel)[0];
+        //document.getElementById("fixed-button-panel");
+
+        var cssString ="z-index: 100;";
+        header.style.cssText = cssString;
+
+        var header2 = document.getElementById(Checkboxes_DataTable);
+        var sticky = header.offsetTop;
+        var sticky2 = header2.offsetTop + header2.offsetHeight +  window.screen.availHeight;
+        //Alternative screen height code - $(window).height() , document.documentElement.clientHeight, window.screen.availHeight, document.body.clientHeight
+
+        function stickingButtonPanel() {
+          if (window.pageYOffset > sticky && window.pageYOffset < sticky2) {
+            header.classList.add("fixed-button-panel-sticky");
+          } else {
+            header.classList.remove("fixed-button-panel-sticky");
+          }
+        }    
+    }
+    /*-- DataTable Fixed Button panel*/
+/*-- Robist Library*/
