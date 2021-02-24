@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | GlobalPay</title>
+    
+    <!--link href="css/bootstrap.min.css" rel="stylesheet"-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/lightbox.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Poppins:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Montserrat:wght@900&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <style>
+
+        input[type=submit]{
+            
+            background-color:#9fca85;
+        }
+        .nav-link{
+           
+            font-family: Impact;
+        }
+        .ordial{
+            font-family: 'Roboto', sans-serif;
+            color: #596b4d;
+        }
+        .heading-text{
+            font-family: 'Hind', sans-serif;
+            color: #6c8060;
+            font-size: 2rem;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            color: #4b5942;
+        }
+        .web-heading{
+            font-family: 'Montserrat', sans-serif;
+            color: #86a178;
+        }
+    </style>
+</head><!--/head-->
+
+<body style="background-color:#ebf2ec;" >
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            
+            <img src="images/logo.png" width="80" height="50" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color: #619e7c;font-family: 'Roboto', sans-serif;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #619e7c;font-family: 'Roboto', sans-serif;">Why GlobalPay</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #619e7c;font-family: 'Roboto', sans-serif;">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #619e7c;font-family: 'Roboto', sans-serif;">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #619e7c;font-family: 'Roboto', sans-serif;">Login/Sign Up</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #619e7c;font-family: 'Roboto', sans-serif;">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+
+    <section id="hero">        
+        <div class="c-hero c-hero--central ">
+        <div class="l-container l-container--lg">
+            <div class="c-hero__body">
+                <div class="c-hero__heading">
+                    <h1 class="display-4 text-center web-heading">Why do businesses<br> should choose Globalpay?</h1>
+                    <p class="text-center">Globalpay is the payment processor of choice for some of the fastest-growing businesses in Bangladesh. Here're 12 reasons why.</p>
+                </div>
+                        </div>    
+                </div>
+        </div>
+
+    </section>
+    
+
+    <section class="l-section l-section--pad-top l-section--pad-bottom l-section--white">
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" width="100%" src="images/why-choose-globalpay/1.png">
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">01</h3>
+                        <h3 class="heading-text">Start accepting payments instantly</h3>
+                        <p>Globalpay is the fastest, simplest way to start accepting online payments in Nigeria. From signup to receiving real payments can take under 15 minutes. Seriously.</p>                
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">02</h3>
+                        <h3 class="heading-text">Simple, transparent pricing</h3>
+                        <p>Zero integration fee. Zero maintenance fee. <br><br>Globalpay only charges a tiny fee per successful transaction, which means we literally only make money when you do, and we work hard to ensure every transaction succeeds.</p>
+                
+                    
+                                
+                        <a href="pricing" class="c-button c-button--primary c-button--link">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="16" height="16" fill="#3BB75E" fill-opacity="0" transform="translate(2 2)"></rect><circle cx="10" cy="10" r="8.72781" fill="#3BB75E" fill-opacity="0" stroke="#3BB75E" stroke-width="1.45563"></circle><path d="M9 6.37524L12.5355 9.91078L9 13.4463" stroke="#3BB75E" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </span>
+                            <span class="c-button__text">
+                                See our pricing
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://assets.paystack.com/assets/img/content/_400x402_crop_center-center_82_line/Fair-Simple-Pricing-compressor.png">
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem"  src="https://assets.paystack.com/assets/img/content/Collect-Payments-for-Multiple-Channels-1.1.gif" >        
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">03</h3>
+                        <h3 class="heading-text">Delight customers with a seamless payments experience</h3>
+                        <p>Give your customers the gift of modern, frictionless, painless payments. Integrate Globalpay once and let your customers pay you however they want.</p>
+                        <div class="c-feature__benefits u-flex">
+                            <ul class="u-list u-list--green u-flex-child">
+                                <li>Card</li>
+                                <li>Bank Account</li>
+                                <li>Bank Transfer</li>
+                                <li>USSD</li>
+                            </ul>
+                            <ul class="u-list u-list--green u-flex-child">
+                                <li>Visa QR</li>
+                                <li>Mobile Money</li>
+                                <li>POS (Coming soon)</li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">04</h3>
+                        <h3 class="heading-text">Enjoy phenomenal transaction success rates</h3>
+                        <p>We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.</p>         
+                        <a href="/success-rates" class="c-button c-button--primary c-button--link">
+                            <span class="c-button__icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="16" height="16" fill="#3BB75E" fill-opacity="0" transform="translate(2 2)"></rect><circle cx="10" cy="10" r="8.72781" fill="#3BB75E" fill-opacity="0" stroke="#3BB75E" stroke-width="1.45563"></circle><path d="M9 6.37524L12.5355 9.91078L9 13.4463" stroke="#3BB75E" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </span>
+                            <span class="c-button__text">
+                                Find out how we achieve high success rates
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://assets.paystack.com/assets/img/content/_400x353_crop_center-center_82_line/Smart-Error-Resolution-compressor.png">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://532386f9a72d1dd857a8-41058da2837557ec5bfc3b00e1f6cf43.ssl.cf5.rackcdn.com/wp-content/uploads/2020/01/Depositphotos_134570160_s-2019-800x534.jpg">
+    
+                        
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">05</h3>
+                        <h3 class="heading-text">Protect yourself and your customers with advanced fraud detection</h3>
+                        <p>Globalpay’s combination of automated and manual fraud systems protect you from fraudulent transactions and associated chargeback claims.</p>
+                        <ul class="u-list u-list--green ">
+                            <li>PCI-DSS-certified systems</li>
+                            <li>Automated fraud monitoring</li>
+                            <li>When a fraud attempt is discovered with any Globalpay merchant, ALL Globalpay merchants become protected from further attempts</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">06</h3>
+                        
+    
+                        <h3 class="heading-text">Build custom payments experiences with well-documented APIs</h3>
+                        <p>Developers love our thorough, well-documented APIs that let you to build everything from simple weekend projects, to complex financial products serving hundreds of thousands of customers. If you can imagine it, you can build it with Globalpay.</p>
+    
+                        <ul class="u-list u-list--green ">
+                            <li>Collect one-time and recurring payments from your app or website</li>
+                            <li>Make instant transfers</li>
+                            <li>Retrieve all your transaction and customer data</li>
+                            <li>Verify the identity of customers</li>
+                        </ul>
+    
+                        <a href="https://paystack.com/docs/" target="_blank" class="c-button c-button--primary c-button--link">
+                            <span class="c-button__icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="16" height="16" fill="#3BB75E" fill-opacity="0" transform="translate(2 2)"></rect><circle cx="10" cy="10" r="8.72781" fill="#3BB75E" fill-opacity="0" stroke="#3BB75E" stroke-width="1.45563"></circle><path d="M9 6.37524L12.5355 9.91078L9 13.4463" stroke="#3BB75E" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </span>
+                            <span class="c-button__text">
+                                Globalpay API Quickstart
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="images/why-choose-globalpay/api.png">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://assets.paystack.com/assets/img/content/_400x445_crop_center-center_82_line/Insights-compressed.jpg">
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">07</h3>
+                        <h3 class="heading-text">Understand exactly how your business is performing</h3>
+                        <p>Globalpay provides detailed reporting, alerts, and exports, so you and your team are always on top of business.</p>
+                        <ul class="u-list u-list--green ">
+                            <li>Super easy reconciliation</li>
+                            <li>Detailed reports on successful, abandoned, and failed transactions</li>
+                            <li>Granular user permissions lets you control the info each member of your team has access to</li>
+                            <li>Automated chargeback alerts </li>
+                            <li>Searchable Customer Directory</li>
+                            <li>Analyze customer purchase patterns with Customer Insights</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">08</h3>
+                        <h3 class="heading-text">Get your money within 24 hours</h3>
+                        <p>Receive your money automatically in your bank account within 24 hours after payment is made. We settle all merchants before 10 AM, every morning.</p>
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://www.pinclipart.com/picdir/middle/285-2856763_tangled-sun-png-clipart-transparent-png.png">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem"  src="https://485758.smushcdn.com/622655/wp-content/uploads/2016/07/work-anywhere.jpg" >
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">09</h3>
+                        <h3 class="heading-text">Get paid by customers from anywhere in the world</h3>
+                        <p>The internet has no borders, and neither should your business. With Globalpay, you can accept payments from international customers, wherever they are in the world.<br><br>You can accept payments from internationally-issued cards, display prices in USD, and also get settled in USD.<br><br>We also make available localized payment options - such as mobile money - that are popular in certain regions of the world.</p>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">10</h3>
+                        <h3 class="heading-text">Get attentive, empathetic help 24/7</h3>
+                        <p>Our Customer Success team is available around the clock to support you, and they’re empowered to resolve issues as quickly as possible.</p>
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://www.marketingdonut.co.uk/sites/default/files/eight-great-customer-service-uses-voip366626837.jpg">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://www.bigcommerce.com/blog/wp-content/uploads/2019/02/wordpress-payments-hero-img.png">
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">11</h3>
+                        <h3 class="heading-text">A modern, beautiful payments experience</h3>
+                        <p>Give customers confidence in your business with a modern, gorgeous checkout form that elevates your brand.</p>
+                        <ul class="u-list u-list--green ">
+                            <li>No redirects - yup, keep your customers on your own page</li>
+                            <li>Automatic error resolution - in the rare occasion where a transaction fails, the Globalpay Checkout Form smartly suggests other payment options</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                
+                <div class="row">
+                    <div class="col-xs-6 w-50">
+                        <h3 class="ordial">12</h3>
+                        <h3 class="heading-text">A team that's obsessed about your growth</h3>
+                        <p >Above all, over <ins>60,000</ins> businesses love Globalpay because we’re a team that’s obsessed with your company’s growth. The mission of Globalpay is to help businesses in Africa be profitable, envied, and loved, and every thing we do - from the features we build to how we hire - is done with a single goal: to guarantee your business’ success.</p>
+                    </div>
+                    <div class="col-xs-6 w-50">
+                        <img width="500rem" src="https://static-cms.hotjar.com/images/blog-15-header-v2.width-750.png">
+                    </div>
+                </div>
+            </div>
+                                                     
+            
+    </section>
+   
+    
+    
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <!--error-->
+                <div class="col-xs-12 text-center bottom-separator">
+                    <img  width="100%" src="images/home/under.png" class="img-responsive inline" alt="">
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <div class="testimonial bottom">
+                        <h2>Testimonial</h2>
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img width="50rem" src="https://blog.cpanel.com/wp-content/uploads/2019/08/user-01.png" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>There service is as fast as I wanted to run my business.</blockquote>
+                                <h3 ><a href="#">- Customer 1</a></h3>
+                            </div>
+                         </div>
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img width="50rem" src="https://blog.cpanel.com/wp-content/uploads/2019/08/user-01.png" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>There api is very well documented and supported by customer support.</blockquote>
+                                <h3><a href="">- Customer 2</a></h3>
+                            </div>
+                        </div>   
+                    </div> 
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="contact-info bottom">
+                        <h2>Contacts</h2>
+                        <address>
+                        E-mail: <a href="mailto:someone@example.com">info@globalpay.com.bd</a> <br> 
+                        Phone: +8801764196477 <br> 
+                        </address>
+    
+                        <h2>Address</h2>
+                        <address>
+                        139 Sadharon Bima-2 Level-10, Lift-09, Motijheel, Dhaka-1000, Bangladesh.
+                        </address>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-12">
+                    <div class="contact-form bottom">
+                        <h2>Send a message</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                            </div>                        
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                
+            </div>
+            
+        </div>
+        
+        
+            
+        <div class="copyright-text"></div> 
+        <p class="text-center">&copy; Globalpay 2021. All Rights Reserved.</p>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>   
+</body>
+</html>
